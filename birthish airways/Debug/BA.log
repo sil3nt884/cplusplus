@@ -1,0 +1,15 @@
+﻿Build started 21/01/2014 21:01:52.
+     1>Project "C:\Users\Ricky\Documents\Visual Studio 2013\Projects\BA\BA\BA.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ricky\Documents\Visual Studio 2013\Projects\BA\BA\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\BA.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "birthish airways.cpp" Plane2D.cpp stdafx.cpp
+         birthish airways.cpp
+         Plane2D.cpp
+         stdafx.cpp
+     1>c:\users\ricky\documents\visual studio 2013\projects\ba\ba\birthish airways.cpp(64): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>c:\users\ricky\documents\visual studio 2013\projects\ba\ba\plane2d.cpp(13): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>c:\users\ricky\documents\visual studio 2013\projects\ba\ba\stdafx.cpp(9): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>Done Building Project "C:\Users\Ricky\Documents\Visual Studio 2013\Projects\BA\BA\BA.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
